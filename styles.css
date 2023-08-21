@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.top-header {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+}
+
+.z-blog {
+    margin: 0;
+    font-size: 58px;
+    color: #333;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    display: block;
+    margin-right: 10px;
+}
+
+.logo img {
+    max-height: 90px;
+}
+
+.nav-bar {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-link {
+    margin: 0 20px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.content {
+    padding: 20px;
+}
+
+/* Dropdown Styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    padding: 10px;
+    list-style: none;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+}
+
+.dropdown-content a:hover {
+    background-color: #333;
+}
+
+/* Blog Styles */
+.blog-post {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.blog-title {
+    font-size: 29px;
+    margin: 0;
+    color: #333;
+}
+
+.blog-body {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #666;
+}
+
+.blog-date {
+    font-size: 14px;
+    color: #999;
+}
